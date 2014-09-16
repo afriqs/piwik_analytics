@@ -47,7 +47,8 @@ module PiwikAnalytics
             g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
           })();
         </script>
-        <noscript><p><img src="http://#{config.url}/piwik.php?idsite=#{config.id_site}" style="border:0;" alt="" /></p></noscript>
+        <noscript><p><img src="https://#{config.url}/piwik.php?idsite=#{config.id_site}" style="border:0;" alt="" /></p></noscript>
+        <iframe id="piwik-privacy" src="https://#{config.url}/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe>
         <!-- End Piwik Code -->
         CODE
         tag.html_safe
