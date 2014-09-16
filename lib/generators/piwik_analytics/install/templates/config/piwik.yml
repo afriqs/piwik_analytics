@@ -15,8 +15,8 @@ production:
   piwik:
     id_site: 1
     url: localhost
-    use_async: false
-    disabled: false
+    disabled: false    
+    use_async: true
     trackingTimer: false
 
 development:
@@ -24,7 +24,7 @@ development:
     id_site: 1
     url: localhost
     disabled: true
-    use_async: false
+    use_async: true
     trackingTimer: false
 
 test:
@@ -32,5 +32,5 @@ test:
     id_site: 1
     url: localhost
     disabled: true
-    use_async: false
+    use_async: true
     trackingTimer: false
