@@ -16,7 +16,7 @@ This another fork takes into accounts the french legislation and is compliant wi
 
 Add `piwik_analytics` to Gemfile:
 
-    gem 'piwik_analytics', '~> 1.0.5', :git => 'https://github.com/zzeroo/piwik_analytics.git'
+    gem 'piwik_analytics', :git => 'https://github.com/afriqs/piwik_analytics.git'
 
 Run `bundle install` and after this the generator:
 
