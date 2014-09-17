@@ -48,7 +48,6 @@ module PiwikAnalytics
           })();
         </script>
         <noscript><p><img src="https://#{config.url}/piwik.php?idsite=#{config.id_site}" style="border:0;" alt="" /></p></noscript>
-        <iframe id="piwik-privacy" src="https://#{config.url}/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe>
         <!-- End Piwik Code -->
         CODE
         tag.html_safe
